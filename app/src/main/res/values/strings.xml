@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rasid</string>
+    <string name="loremipsumtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse dignissim eleifend scelerisque. Nunc vitae ligula arcu.
+    </string>
+    <string name="Greetings">Greetings for the discounts</string>
+    <string name="Credit">Credit Pak Cards endless discounts</string>
+    <string name="Ease">Ease of Discount scanning the code..</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".NextActivity">
+
+
+    <ImageView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nextactivitylogo" />
+
+    <ImageView
+        android:layout_marginTop="@dimen/_30sdp"
+        android:id="@+id/nextactivitylogo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:src="@drawable/nextactivityimage" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_below="@+id/nextactivitylogo"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_40sdp"
+        android:fontFamily="monospace"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorfornextactivity"
+        android:textStyle="bold"
+        android:text="@string/Greetings" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_below="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_40sdp"
+        android:fontFamily="monospace"
+        android:text="@string/loremipsumtext" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/_8sdp">
+
+        <TextView
+            android:id="@+id/text3skip"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:text="skip"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:textColor="@color/colorfornextactivity" />
+
+        <ImageView
+            android:id="@+id/nextactivitybutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_190sdp"
+            android:src="@drawable/nextbutton" />
+    </LinearLayout>
+</RelativeLayout>
